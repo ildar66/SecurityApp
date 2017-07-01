@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="nri">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="NriGroup.jar" deploy-path="/" handle="module:/resource/NriGroup/NriGroup">
+            <dependent-object>EjbModule_1184592432053</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="NriTestClient.jar" deploy-path="/" handle="module:/resource/NriTestClient/NriTestClient">
+            <dependent-object>JavaClientModule_1185799941416</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OIDGenerator.jar" deploy-path="/" handle="module:/resource/OIDGenerator/OIDGenerator">
+            <dependent-object>EjbModule_1185528086867</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SecurityApp.war" deploy-path="/" handle="module:/resource/SecurityApp/SecurityApp">
+            <dependent-object>WebModule_1185184155298</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SequenceGenerator.jar" deploy-path="/" handle="module:/resource/SequenceGenerator/SequenceGenerator">
+            <dependent-object>EjbModule_1191223328131</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
